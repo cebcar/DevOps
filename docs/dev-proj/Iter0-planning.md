@@ -13,8 +13,8 @@ Iter0 planning #3
   - define document type for Keymap
     - supports eventually
       - parsing special keys to display with their established icons
-      - marking some rows to be included in a summary
-        - move learned ones out and new ones in
+      - marking some rows to be included in a learning / summary reference
+        - as shortcuts are learned, move learned shortcuts out and new ones in
   - document Keymaps<br/><br/>
 
 - IDE
@@ -32,12 +32,12 @@ Iter0 planning #3
 - accessibility
   - learn and adopt macOS Voice Control (see macOS System)
   - maybe some basic workflow support
-  - understand basic accessibility support options for macos and ios
+  - understand basic accessibility support options for macOS and iOS
   - some basic macos/ios support<br/><br/>
 
 - Continuing Education
   - new project LearningActivities
-    - for now: hosts Continuing Education board for Carol
+    - for now: hosts Kanban board for Continuing Education for Carol
     - ultimately: data for Tuxedo website
       - must be private?
   - ZenHub Board Continuing Education
