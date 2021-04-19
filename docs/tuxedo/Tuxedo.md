@@ -36,5 +36,5 @@ The Tuxedo is for the Penguins.
 - Continuing Education for developer; uses a ZenHub Board
   - valuable experience for Penguins development
 - high-level roadmap of Tuxedo project
-- maybe a repo project containing CE notes and OKplans
+- maybe a repo project containing CE notes and plans
 <br/><br/>
