@@ -8,7 +8,7 @@ At this time, its facets are:
   - automation for some aspects of devops workflow via Actions
 <br/><br/>
 - ZenHub
-  - Kanban boards project and for issue management
+  - Kanban boards for project and issue management
   - Roadmaps and Projects for a higher-level view of product development
   - Projects and Epics for planning based on Feature development
   - Releases and Milestones for time-based planning

@@ -10,9 +10,8 @@ WebApp @ [ZenHub](https://zenhub.com)
   - [ZenHub Help Center](https://help.zenhub.com/support/home)
   - [ZenHub Webinars](https://www.zenhub.com/webinars#on-demand)
 - **License**: [cebcar account](https://app.zenhub.com/dashboard/o/cebcar/account-settings)
-  
-### ZenHub Configuration
 
+### ZenHub Configuration
 ### ZenHub Customization & Automation
 
 ### ZenHub Shortcuts
@@ -27,6 +26,7 @@ WebApp @ [ZenHub](https://zenhub.com)
   *shows an existing Workspace if one exists*<br/>
   - click Workspace Switcher at top left (opposing arrows icon)
   - "Create new Workspace"; name for a single, or a family of, Repo Projects
+  - add repository(ies) to Workspace
   - configure [Board Columns](../entities/Workspace.md#board-columns)
 
 ### Add Repo Project to ZenHub Workspace

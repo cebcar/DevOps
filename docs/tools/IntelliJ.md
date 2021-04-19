@@ -252,16 +252,8 @@ Features Include:
   - File : Manage IDE Settings : Settings Repository
     - select cebcar/ij-settings; overwrite local
 
-#### add .gitignore
-&nbsp;&nbsp;*previous step created new macOS directories, so*
-  *.gitignore must be created before commit to avoid committing .DS_Store files*
-<br/><br/>
-- in top-level directory, add starter file .gitignore with content:
-```
-  .DS_Store
-  workspace.xml
-  !.gitignore
-```
+#### expand .gitignore
+
 - gitignore.io: add content for macOS and JetBrains; inspect; remove duplicate line .DS_Store
 
 #### connect to GitHub repo
@@ -272,7 +264,7 @@ Features Include:
 
 #### commit to Version Control
 - Tag and Commit
-  - add annotated tag, normally "v0.1.0" for a new project, with message
+  - add annotated tag, normally "vYY.0.1" for a new project, with message
 - commit; push
   
 ## Special Documentation Files

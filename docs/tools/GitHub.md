@@ -13,20 +13,20 @@ WebApp @ https://github.com<br/>
 - GitHub:  New Repository
   - GitHub : ‘cebcar’ : New
     - supply repo Name and Description
-    - make repository “Private”
-    - do not include .gitignore
+    - make repository “Public”
+    - add placeholder .gitignore; "Scala" is very short
     - initialize repo with a README
     - add license, normally MIT
   - create
-  - edit Repository Settings
-    - use cebcar-settings - see github-repository-settings below(@link)<br/><br/>
-
-- add starter .gitignore with content:
+- change .gitignore content to:
 ```
   .DS_Store
   workspace.xml 
   !.gitignore
 ```
+
+- edit Repository Settings
+  - use cebcar-settings - see github-repository-settings below(@link)<br/><br/>
 
 ### GitHub Repository Settings
 *categories shown with no content are not now being used*
@@ -34,19 +34,22 @@ WebApp @ https://github.com<br/>
   - Settings
     - if public, can add social image (photo or github avatar?)<br/><br/>
   - Features (cebcar settings)
-    - [+] **Wikis** ??
-      - not available except for paid subscriptions
-      - $48/year if we decide we need wikis
+    - [-] **Wikis**
+    - [+] **Restrict editing to users in teams with push access only**
     - [+] **Issues**
     - [-] **Allow Forking**
     - [-] **Sponsorships**
-    - [-] **Projects** *projects provided by ZenHub*<br/><br/>
+    - [-] **Projects** *projects provided by ZenHub*
+    - [-] **Preserve this repository** *intended for long-term preservation of important open-source code*
+    - [+] **Table of contents** *autogenerate TOC for markdown files*
+    - [-] **Discussions**<br/><br/>
+
   - Merge Button (cebcar settings)
-    - [+] Allow merge commits
-    - [-] Allow squash merging
-    - [-] Allow rebase merging
-    - [-] Allow auto-merge (Beta)
-    - [-] Automatically delete head branches<br/><br/>
+      - [+] Allow merge commits
+      - [-] Allow squash merging
+      - [-] Allow rebase merging
+      - [-] Allow auto-merge
+      - [-] Automatically delete head branches<br/><br/>
   - we do not now use Archives or GitHub Pages<br/><br/>
 - Manage Access
   - invite collaborators here
@@ -59,7 +62,6 @@ WebApp @ https://github.com<br/>
 - Integrations
   - set up GitHub Learning Lab from here
 - Deploy keys
-- Autolink references
 - Actions
   - scriptable CI Actions
 - Secrets
